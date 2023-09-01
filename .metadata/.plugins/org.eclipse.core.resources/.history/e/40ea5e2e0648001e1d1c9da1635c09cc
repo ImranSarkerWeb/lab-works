@@ -1,0 +1,11 @@
+/**
+ * Represent a person
+ * @author Imran
+ */
+public class Person {
+
+	//instance variables
+	
+	String name;
+	int age;
+}

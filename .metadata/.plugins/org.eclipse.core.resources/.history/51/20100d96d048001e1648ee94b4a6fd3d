@@ -1,0 +1,10 @@
+package gpa;
+
+public class CalculateGPA {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

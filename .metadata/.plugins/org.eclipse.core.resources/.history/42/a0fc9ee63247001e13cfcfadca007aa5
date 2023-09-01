@@ -1,0 +1,31 @@
+package practice1;
+
+import java.util.Scanner;
+
+public class SwitchCaseUsingRange {
+
+	public static void main(String[] args) {
+
+		Scanner scanner = new Scanner(System.in);
+
+		double ct, ast, ca, finalMark;
+		System.out.println("Enter your CT mark: ");
+		ct = scanner.nextDouble();
+
+		System.out.println("Enter your Assingment mark: ");
+		ast = scanner.nextDouble();
+
+		System.out.println("Enter your CA mark: ");
+		ca = scanner.nextDouble();
+
+		System.out.println("Enter your Final mark: ");
+		finalMark = scanner.nextDouble();
+
+		double total = (ct * .15) + (ast * .1) + (ca * .05) + (finalMark * 0.7);
+		
+		System.out.println(total);
+		
+		scanner.close();
+	}
+
+}

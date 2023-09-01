@@ -1,0 +1,29 @@
+package banking;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class BankAccountTest {
+
+	@BeforeEach
+	void setUp() throws Exception {
+	}
+
+	@Test
+	void testDeposit() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	void testWithdraw() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	@Test
+	void testFastWithdraw() {
+		fail("Not yet implemented"); // TODO
+	}
+
+}
