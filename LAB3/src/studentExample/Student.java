@@ -23,7 +23,7 @@ public class Student {
 	{
 	// Create a Student instance
 	Student s1 =
-	new Student("Imran",27,1.9);
+	new Student("Mozammel",27,1.9);
 	Student s2;
 	// Print the name of
 	// the student
